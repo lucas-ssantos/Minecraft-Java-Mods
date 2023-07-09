@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "title": {
+      "translate": "advancements.spawn_mudrock.title"
+    },
+    "description": {
+      "translate": "advancements.spawn_mudrock.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spawn_mudrock": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "mudrock_bode_mod:gold_hammer_recipe"
+    ]
+  },
+  "parent": "minecraft:nether/obtain_ancient_debris"
+}

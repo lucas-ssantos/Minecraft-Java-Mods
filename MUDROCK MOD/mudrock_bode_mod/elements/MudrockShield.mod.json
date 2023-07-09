@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Shield Arts",
+    "icon": "arts_shield.png",
+    "color": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "MudrockShieldOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "MudrockShieldEffectExpires"
+    }
+  }
+}

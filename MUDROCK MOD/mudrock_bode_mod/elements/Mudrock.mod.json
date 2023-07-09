@@ -1,0 +1,129 @@
+{
+  "_fv": 39,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Mudrock",
+    "mobLabel": "",
+    "mobModelName": "Modelcustom_model",
+    "mobModelTexture": "mudrock-on-planetminecraft-com.png",
+    "mobModelGlowTexture": "",
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -3355393,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -10066330,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 5,
+    "attackKnockback": 1.0,
+    "knockbackResistance": 3.0,
+    "movementSpeed": 0.3,
+    "armorBaseValue": 10.0,
+    "trackingRange": 64,
+    "followRange": 20,
+    "health": 40,
+    "xpAmount": 10,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 5,
+    "inventoryStackSize": 1,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": "Blocks.STONE#0"
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "whenMobIsHurt": {
+      "name": "MudrockEntityIsHurt"
+    },
+    "onRightClickedOn": {
+      "name": "MudrockRightClickedOnEntity"
+    },
+    "onInitialSpawn": {
+      "name": "MudrockOnInitialEntitySpawn"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"48\" y=\"40\"><next><block type=\"fight_as_owner\"><field name=\"condition\">null,null</field><next><block type=\"protect_owner\"><field name=\"condition\">null,null</field><next><block type=\"follow_owner\"><field name=\"speed\">1</field><field name=\"min_distance\">10</field><field name=\"max_distance\">2</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "tameable": true,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 1,
+    "mobSpawningType": "misc",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

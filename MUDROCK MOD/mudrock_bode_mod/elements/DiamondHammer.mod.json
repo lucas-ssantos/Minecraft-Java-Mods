@@ -1,0 +1,44 @@
+{
+  "_fv": 39,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamond_hammer",
+    "customModelName": "Normal",
+    "name": "Diamond Hammer",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "stackSize": 1,
+    "enchantability": 10,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 1561,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 7.0,
+    "specialInfo": [
+      "It's made out of diamonds."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "mudrock_bode_mod:dating_ring"
+    },
+    "title": {
+      "translate": "advancements.date_mudrock.title"
+    },
+    "description": {
+      "translate": "advancements.date_mudrock.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "date_mudrock": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "mudrock_bode_mod:spawn_mudrock"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "mudrock_bode_mod:netherite_hammer"
+  },
+  "addition": {
+    "item": "minecraft:lodestone"
+  },
+  "result": {
+    "item": "mudrock_bode_mod:mudrock_hammer"
+  }
+}

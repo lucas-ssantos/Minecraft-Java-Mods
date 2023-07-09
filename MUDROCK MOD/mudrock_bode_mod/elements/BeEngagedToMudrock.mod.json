@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Cute Small Gargule Sarkaz In White",
+    "achievementDescription": "This Day Shall Be Remembered Forever.",
+    "achievementIcon": {
+      "value": "CUSTOM:EngagementRing"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "DiamondHammerRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 3,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:DateMudrock"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"40\" y=\"44\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}
