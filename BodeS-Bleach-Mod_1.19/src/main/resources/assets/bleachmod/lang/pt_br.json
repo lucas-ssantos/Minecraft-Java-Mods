@@ -1,0 +1,19 @@
+{
+  "item.bleachmod.reiryoku" : "Reiryoku",
+  "item.bleachmod.reiatsu" : "Barra de Reiatsu",
+
+  "item.bleachmod.zanpakto" : "Zanpakto",
+
+  "item.bleachmod.shihakusho_chestplate" : "Parte de Cima do Shihakusho",
+  "item.bleachmod.shihakusho_leggings" : "Parte de Baixo do Shihakusho",
+  "item.bleachmod.sandals" : "Sandálias",
+
+  "block.bleachmod.reiryoku_ore": "Minério de Reiryoku",
+  "block.bleachmod.deepslate_reiryoku_ore": "Minério de Deepslate Reiryoku",
+  "block.bleachmod.endstone_reiryoku_ore": "Minério de Pedra do End Reiryoku",
+  "block.bleachmod.netherrack_reiryoku_ore": "Minério de Netherrack Reiryoku",
+
+  "block.bleachmod.reiryoku_trap": "Armadilha de Reiryoku",
+
+  "itemGroup.bleachmod.bleach_mod": "Bode's Bleach Tab"
+}

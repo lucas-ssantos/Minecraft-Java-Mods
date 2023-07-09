@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "bleachmod:reiryoku_ore",
+    "bleachmod:endstone_reiryoku_ore",
+    "bleachmod:netherrack_reiryoku_ore",
+    "bleachmod:deepslate_reiryoku_ore"
+  ]
+}

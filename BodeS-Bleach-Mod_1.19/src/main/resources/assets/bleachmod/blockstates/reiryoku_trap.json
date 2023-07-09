@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "bleachmod:block/reiryoku_trap"
+    },
+    "bites=1": {
+      "model": "bleachmod:block/reiryoku_trap_slice1"
+    },
+    "bites=2": {
+      "model": "bleachmod:block/reiryoku_trap_slice2"
+    },
+    "bites=3": {
+      "model": "bleachmod:block/reiryoku_trap_slice3"
+    },
+    "bites=4": {
+      "model": "bleachmod:block/reiryoku_trap_slice4"
+    },
+    "bites=5": {
+      "model": "bleachmod:block/reiryoku_trap_slice5"
+    },
+    "bites=6": {
+      "model": "bleachmod:block/reiryoku_trap_slice6"
+    }
+  }
+}

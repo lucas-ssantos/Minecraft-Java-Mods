@@ -1,0 +1,22 @@
+{
+  "textures": {
+    "particle": "bleachmod:block/reiryoku_trap_side",
+    "bottom": "bleachmod:block/reiryoku_trap_bottom",
+    "top": "bleachmod:block/reiryoku_trap_top",
+    "side": "bleachmod:block/reiryoku_trap_side",
+    "inside": "bleachmod:block/reiryoku_trap_inner"
+  },
+  "elements": [
+    {   "from": [ 13, 0, 1 ],
+      "to": [ 15, 8, 15 ],
+      "faces": {
+        "down":  { "texture": "#bottom", "cullface": "down" },
+        "up":    { "texture": "#top" },
+        "north": { "texture": "#side" },
+        "south": { "texture": "#side" },
+        "west":  { "texture": "#inside" },
+        "east":  { "texture": "#side" }
+      }
+    }
+  ]
+}

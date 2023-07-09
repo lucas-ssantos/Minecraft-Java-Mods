@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "bleachmod:reiryoku"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RIR",
+    "RRR"
+  ],
+  "result": {
+    "item": "bleachmod:reiryoku_trap"
+  }
+}
