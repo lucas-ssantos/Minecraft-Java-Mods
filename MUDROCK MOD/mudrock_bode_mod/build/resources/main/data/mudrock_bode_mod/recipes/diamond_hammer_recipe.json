@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "mudrock_bode_mod:golden_hammer"
+  },
+  "addition": {
+    "item": "minecraft:diamond_block"
+  },
+  "result": {
+    "item": "mudrock_bode_mod:diamond_hammer"
+  }
+}

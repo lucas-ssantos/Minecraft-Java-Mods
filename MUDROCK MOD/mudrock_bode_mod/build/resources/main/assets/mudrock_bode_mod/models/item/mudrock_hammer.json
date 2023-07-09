@@ -1,0 +1,7 @@
+{
+  "parent": "mudrock_bode_mod:custom/mudrock_hammer",
+  "textures": {
+    "0": "mudrock_bode_mod:blocks/mudrock_hammer",
+    "particle": "mudrock_bode_mod:items/mudrock_hammer"
+  }
+}
