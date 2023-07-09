@@ -1,0 +1,744 @@
+{
+  "mod_elements": [
+    {
+      "name": "MudrockHammer",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mudrock_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/item/MudrockHammerItem.java",
+          "src/main/resources/assets/mudrock_bode_mod/models/item/mudrock_hammer.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Mudrock",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mudrock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/client/renderer/MudrockRenderer.java",
+          "src/main/java/net/mcreator/mudrockbodemod/entity/MudrockEntity.java",
+          "src/main/resources/assets/mudrock_bode_mod/models/item/mudrock_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entitys"
+    },
+    {
+      "name": "MudrockSpawnRitual",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mudrock_spawn_ritual",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/procedures/MudrockSpawnRitualProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MudrockRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mudrock_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/procedures/MudrockRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MudrockOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mudrock_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/procedures/MudrockOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GiveHammer",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mudrock_inventory_management",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/procedures/GiveHammerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MudrockShield",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mudrock_shield",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/potion/MudrockShieldMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "MudrockShieldOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mudrock_shield_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/procedures/MudrockShieldOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MudrockEntityIsHurt",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mudrock_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/procedures/MudrockEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DatingRing",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dating_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mudrock_bode_mod/models/item/dating_ring.json",
+          "src/main/java/net/mcreator/mudrockbodemod/item/DatingRingItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EngagementRing",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engagement_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mudrock_bode_mod/models/item/engagement_ring.json",
+          "src/main/java/net/mcreator/mudrockbodemod/item/EngagementRingItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WeddingRing",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wedding_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mudrock_bode_mod/models/item/wedding_ring.json",
+          "src/main/java/net/mcreator/mudrockbodemod/item/WeddingRingItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DatingRingRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dating_ring_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/recipes/dating_ring_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngagementRingRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engagement_ring_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/recipes/engagement_ring_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WeddingRingRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wedding_ring_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/recipes/wedding_ring_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NetheriteHammer",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/item/NetheriteHammerItem.java",
+          "src/main/resources/assets/mudrock_bode_mod/models/item/netherite_hammer.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "IronHammer",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/item/IronHammerItem.java",
+          "src/main/resources/assets/mudrock_bode_mod/models/item/iron_hammer.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DiamondHammer",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/item/DiamondHammerItem.java",
+          "src/main/resources/assets/mudrock_bode_mod/models/item/diamond_hammer.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WoodHammer",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/item/WoodHammerItem.java",
+          "src/main/resources/assets/mudrock_bode_mod/models/item/wood_hammer.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StoneHammer",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mudrock_bode_mod/models/item/stone_hammer.json",
+          "src/main/java/net/mcreator/mudrockbodemod/item/StoneHammerItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GoldenHammer",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mudrock_bode_mod/models/item/golden_hammer.json",
+          "src/main/java/net/mcreator/mudrockbodemod/item/GoldenHammerItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WoodHammerRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/recipes/wood_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "StoneHammerRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/recipes/stone_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "StoneHammerRecipe2",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hammer_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/recipes/stone_hammer_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IronHammerRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/recipes/iron_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GoldHammerRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/recipes/gold_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DiamondHammerRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/recipes/diamond_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NetheriteHammerRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/recipes/netherite_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MudrockHammerRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mudrock_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/recipes/mudrock_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SpawnMudrock",
+      "type": "achievement",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_mudrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/advancements/spawn_mudrock.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DateMudrock",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "date_mudrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/advancements/date_mudrock.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BeEngagedToMudrock",
+      "type": "achievement",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "be_engaged_to_mudrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/advancements/be_engaged_to_mudrock.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MarryMudrock",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marry_mudrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mudrock_bode_mod/advancements/marry_mudrock.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "WaifuInventory",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waifu_inventory",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/world/inventory/WaifuInventoryMenu.java",
+          "src/main/java/net/mcreator/mudrockbodemod/client/gui/WaifuInventoryScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "WaifuNameGUIValor",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waifu_name_gui_valor",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/procedures/WaifuNameGUIValorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "WaifuAffectionGUIValor",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waifu_affection_gui_valor",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/procedures/WaifuAffectionGUIValorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "WaifuRelationshipGUIValor",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waifu_relationship_gui_valor",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/mudrockbodemod/procedures/WaifuRelationshipGUIValorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "waifuAffection",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "waifuName",
+      "type": "string",
+      "scope": "map",
+      "value": "\"\""
+    },
+    {
+      "name": "waifuRelationship",
+      "type": "string",
+      "scope": "map",
+      "value": "\"\""
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.mudrock_bode_mod.mudrock_spawn_egg": "Mudrock Spawn Egg",
+      "item.mudrock_bode_mod.netherite_hammer": "Netherite Hammer",
+      "advancements.spawn_mudrock.title": "The Fortress In Person",
+      "item.mudrock_bode_mod.wedding_ring": "Wedding Ring",
+      "advancements.marry_mudrock.descr": "This day Shall Be Remembered To Eternity!",
+      "advancements.date_mudrock.title": "Did You Heard Me Talking With Stones?",
+      "item.mudrock_bode_mod.golden_hammer": "Golden Hammer",
+      "item.mudrock_bode_mod.mudrock_hammer": "Mudrock\u0027s Hammer",
+      "advancements.marry_mudrock.title": "Mudmud Is Only Mine!",
+      "item.mudrock_bode_mod.engagement_ring": "Engagement Ring",
+      "entity.mudrock_bode_mod.mudrock": "Mudrock",
+      "advancements.date_mudrock.descr": "This day will be remembered forever.",
+      "gui.mudrock_bode_mod.waifu_inventory.label_armor": "armor",
+      "item.mudrock_bode_mod.dating_ring": "Dating Ring",
+      "item.mudrock_bode_mod.iron_hammer": "Iron Hammer",
+      "advancements.be_engaged_to_mudrock.descr": "This Day Shall Be Remembered Forever.",
+      "advancements.be_engaged_to_mudrock.title": "Cute Small Gargule Sarkaz In White",
+      "item.mudrock_bode_mod.stone_hammer": "Stone Hammer",
+      "effect.mudrock_bode_mod.mudrock_shield": "Shield Arts",
+      "gui.mudrock_bode_mod.waifu_inventory.label_weapon": "weapon",
+      "item.mudrock_bode_mod.wood_hammer": "Wood Hammer",
+      "item.mudrock_bode_mod.diamond_hammer": "Diamond Hammer",
+      "advancements.spawn_mudrock.descr": "Hello Doctor."
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "Entitys",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mudrock_bode_mod",
+    "modName": "Mudrock Mod",
+    "version": "1.0.0",
+    "author": "lucss, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.mudrockbodemod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
