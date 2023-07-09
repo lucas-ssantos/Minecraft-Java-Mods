@@ -1,0 +1,7 @@
+{
+  "parent": "mineknights:custom/originiumhealingwand",
+  "textures": {
+    "0": "mineknights:blocks/originiumhealingwand",
+    "particle": "mineknights:items/origium_healing_wand"
+  }
+}

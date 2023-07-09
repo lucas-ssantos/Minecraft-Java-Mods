@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 3,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mineknights:origium_shard"
+  },
+  "result": "mineknights:origium"
+}

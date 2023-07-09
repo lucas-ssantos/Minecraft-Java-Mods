@@ -1,0 +1,534 @@
+{
+  "mod_elements": [
+    {
+      "name": "OrigiumShard",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_shard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineknights/models/item/origium_shard.json",
+          "src/main/java/net/mcreator/mineknights/bodewilson/item/OrigiumShardItem.java"
+        ]
+      },
+      "path": "~/Items/Ores/Raw"
+    },
+    {
+      "name": "Origium",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineknights/models/item/origium.json",
+          "src/main/java/net/mcreator/mineknights/bodewilson/item/OrigiumItem.java"
+        ]
+      },
+      "path": "~/Items/Ores/Refined"
+    },
+    {
+      "name": "OrigiumOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineknights/models/item/origium_ore.json",
+          "src/main/resources/assets/mineknights/models/block/origium_ore.json",
+          "src/main/java/net/mcreator/mineknights/bodewilson/world/features/ores/OrigiumOreFeature.java",
+          "src/main/resources/assets/mineknights/blockstates/origium_ore.json",
+          "src/main/resources/data/mineknights/forge/biome_modifier/origium_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/mineknights/bodewilson/block/OrigiumOreBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "OrigiumOreDrop",
+      "type": "loottable",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_ore_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineknights/loot_tables/blocks/origium_ore_drop.json"
+        ]
+      },
+      "path": "~/LootTables"
+    },
+    {
+      "name": "OrigiumRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineknights/recipes/origium_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OrigiumRecipeBF",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_recipe_bf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineknights/recipes/origium_recipe_bf.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Arknights",
+      "type": "dimension",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arknights",
+      "metadata": {
+        "ep": true,
+        "files": [
+          "src/main/resources/data/mineknights/dimension_type/arknights.json",
+          "src/main/java/net/mcreator/mineknights/bodewilson/block/ArknightsPortalBlock.java",
+          "src/main/resources/data/mineknights/dimension/arknights.json",
+          "src/main/java/net/mcreator/mineknights/bodewilson/world/teleporter/ArknightsPortalShape.java",
+          "src/main/resources/assets/mineknights/models/block/arknights_portal_ns.json",
+          "src/main/java/net/mcreator/mineknights/bodewilson/item/ArknightsItem.java",
+          "src/main/resources/assets/mineknights/models/item/arknights.json",
+          "src/main/java/net/mcreator/mineknights/bodewilson/world/teleporter/ArknightsTeleporter.java",
+          "src/main/resources/assets/mineknights/models/block/arknights_portal_ew.json",
+          "src/main/java/net/mcreator/mineknights/bodewilson/world/dimension/ArknightsDimension.java",
+          "src/main/resources/assets/mineknights/blockstates/arknights_portal.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "Devastedlands",
+      "type": "biome",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devastedlands",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineknights/bodewilson/world/biome/DevastedlandsBiome.java"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "ProcessingTable",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processing_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineknights/models/item/processing_table.json",
+          "src/main/resources/assets/mineknights/blockstates/processing_table.json",
+          "src/main/resources/assets/mineknights/models/block/processing_table.json",
+          "src/main/java/net/mcreator/mineknights/bodewilson/block/entity/ProcessingTableBlockEntity.java",
+          "src/main/java/net/mcreator/mineknights/bodewilson/block/ProcessingTableBlock.java"
+        ]
+      },
+      "path": "~/Blocks/InteractiveBlocks"
+    },
+    {
+      "name": "ProcessingTableGUI",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processing_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineknights/bodewilson/world/inventory/ProcessingTableGUIMenu.java",
+          "src/main/java/net/mcreator/mineknights/bodewilson/client/gui/ProcessingTableGUIScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ProcessingTableTick",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processing_table_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineknights/bodewilson/procedures/ProcessingTableTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks"
+    },
+    {
+      "name": "ArknightsTrades",
+      "type": "villagertrade",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arknights_trades",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Trades/Villager"
+    },
+    {
+      "name": "ProcessingTableEnergy",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processing_table_energy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineknights/bodewilson/block/ProcessingTableEnergyBlock.java",
+          "src/main/java/net/mcreator/mineknights/bodewilson/block/entity/ProcessingTableEnergyBlockEntity.java",
+          "src/main/resources/assets/mineknights/blockstates/processing_table_energy.json",
+          "src/main/resources/assets/mineknights/models/item/processing_table_energy.json",
+          "src/main/resources/assets/mineknights/models/block/processing_table_energy.json"
+        ]
+      },
+      "path": "~/Blocks/InteractiveBlocks"
+    },
+    {
+      "name": "EnergyProjectorGUI",
+      "type": "gui",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_projector_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineknights/bodewilson/world/inventory/EnergyProjectorGUIMenu.java",
+          "src/main/java/net/mcreator/mineknights/bodewilson/client/gui/EnergyProjectorGUIScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "EnergyProjector",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_projector",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineknights/bodewilson/block/EnergyProjectorBlock.java",
+          "src/main/resources/assets/mineknights/blockstates/energy_projector.json",
+          "src/main/resources/assets/mineknights/models/block/energy_projector.json",
+          "src/main/java/net/mcreator/mineknights/bodewilson/block/entity/EnergyProjectorBlockEntity.java",
+          "src/main/resources/assets/mineknights/models/item/energy_projector.json"
+        ]
+      },
+      "path": "~/Blocks/InteractiveBlocks"
+    },
+    {
+      "name": "OrigiumHealingWandRightclickedEntity",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_healing_wand_rightclicked_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineknights/bodewilson/procedures/OrigiumHealingWandRightclickedEntityProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures/Items"
+    },
+    {
+      "name": "OrigiumHealingWandRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_healing_wand_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineknights/bodewilson/procedures/OrigiumHealingWandRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures/Items"
+    },
+    {
+      "name": "OrigiumHealingWand",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_healing_wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineknights/models/item/origium_healing_wand.json",
+          "src/main/java/net/mcreator/mineknights/bodewilson/item/OrigiumHealingWandItem.java"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "Oriopathy",
+      "type": "potioneffect",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oriopathy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineknights/bodewilson/potion/OriopathyMobEffect.java"
+        ]
+      },
+      "path": "~/Efeitos"
+    },
+    {
+      "name": "OrigiumOreBlockGiveOripathy",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_ore_block_give_oripathy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineknights/bodewilson/procedures/OrigiumOreBlockGiveOripathyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks"
+    },
+    {
+      "name": "OriopathyOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oriopathy_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineknights/bodewilson/procedures/OriopathyOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Efeitos"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.mineknights.processing_table": "Processing Table",
+      "gui.mineknights.energy_projector_gui.label_energy_bnbtintegerenergyak": "Energy: \u003cBNBT:integer:energyAK\u003e%",
+      "block.mineknights.processing_table_energy": "Processing Table",
+      "item.mineknights.arknights": "Lighter",
+      "block.mineknights.origium_ore": "Origium Ore",
+      "gui.mineknights.processing_table_gui.label_processing_table": "Processing Table",
+      "biome.mineknights.devastedlands": "Devastedlands",
+      "gui.mineknights.energy_projector_gui.label_energy_projector": "Energy Projector",
+      "effect.mineknights.oriopathy": "Oriopathy",
+      "item.mineknights.origium_healing_wand": "Origium Healing Wand",
+      "item.mineknights.origium_shard": "Origium Shard",
+      "block.mineknights.energy_projector": "Energy Projector",
+      "item.mineknights.origium": "Origium",
+      "gui.mineknights.processing_table_gui.label_fuelbnbtintegerfuelremaining": "Fuel:\u003cBNBT:integer:fuelRemaining\u003e%"
+    },
+    "pt_br": {
+      "block.mineknights.processing_table": "Mesa de Processamento",
+      "gui.mineknights.energy_projector_gui.label_energy_bnbtintegerenergyak": "Energy: \u003cBNBT:integer:energyAK\u003e%",
+      "block.mineknights.processing_table_energy": "Mesa de Processamento Energia",
+      "item.mineknights.arknights": "Chave Para Arknights",
+      "block.mineknights.origium_ore": "MInério de Origium",
+      "gui.mineknights.processing_table_gui.label_processing_table": "Processing Table",
+      "biome.mineknights.devastedlands": "Terras Devastadas",
+      "gui.mineknights.energy_projector_gui.label_energy_projector": "Energy Projector",
+      "effect.mineknights.oriopathy": "Oriopathy",
+      "item.mineknights.origium_healing_wand": "Varinha de Cura de Origium",
+      "item.mineknights.origium_shard": "Fragmento de Origium",
+      "block.mineknights.energy_projector": "Projetor de Energia",
+      "item.mineknights.origium": "Origium",
+      "gui.mineknights.processing_table_gui.label_fuelbnbtintegerfuelremaining": "Fuel:\u003cBNBT:integer:fuelRemaining\u003e%"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Dimensions",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Ores",
+            "children": []
+          },
+          {
+            "name": "InteractiveBlocks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Ores",
+            "children": [
+              {
+                "name": "Block",
+                "children": []
+              },
+              {
+                "name": "Raw",
+                "children": []
+              },
+              {
+                "name": "Refined",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Tools",
+            "children": []
+          },
+          {
+            "name": "Weapons",
+            "children": []
+          },
+          {
+            "name": "Shields",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Entitys",
+        "children": [
+          {
+            "name": "Firendly",
+            "children": []
+          },
+          {
+            "name": "Agressive",
+            "children": []
+          },
+          {
+            "name": "Neutral",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "LootTables",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Efeitos",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Trades",
+        "children": [
+          {
+            "name": "Villager",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Efeitos",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mineknights",
+    "modName": "MineKnights",
+    "version": "1.0.0",
+    "author": "lucss, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.mineknights.bodewilson",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

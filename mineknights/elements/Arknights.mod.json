@@ -1,0 +1,42 @@
+{
+  "_fv": 39,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Devastedlands"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.WATER"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.CRYING_OBSIDIAN"
+    },
+    "portalParticles": {
+      "value": "ASH"
+    },
+    "portalLuminance": 4,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Lighter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "lighter",
+    "portalTexture": "arknightsportal",
+    "enablePortal": true
+  }
+}

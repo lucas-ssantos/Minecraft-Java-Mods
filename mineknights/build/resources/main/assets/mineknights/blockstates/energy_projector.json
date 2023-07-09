@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mineknights:block/energy_projector"
+    },
+    "facing=east": {
+      "model": "mineknights:block/energy_projector",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mineknights:block/energy_projector",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mineknights:block/energy_projector",
+      "y": 270
+    }
+  }
+}

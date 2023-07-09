@@ -1,0 +1,9 @@
+{
+  "parent": "mineknights:custom/processing_table",
+  "textures": {
+    "all": "mineknights:blocks/processing_table",
+    "particle": "mineknights:blocks/processing_table",
+    "0": "mineknights:blocks/processing_table"
+  },
+  "render_type": "solid"
+}

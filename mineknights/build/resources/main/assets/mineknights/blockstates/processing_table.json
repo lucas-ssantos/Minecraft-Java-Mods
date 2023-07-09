@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mineknights:block/processing_table"
+    },
+    "facing=east": {
+      "model": "mineknights:block/processing_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mineknights:block/processing_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mineknights:block/processing_table",
+      "y": 270
+    }
+  }
+}

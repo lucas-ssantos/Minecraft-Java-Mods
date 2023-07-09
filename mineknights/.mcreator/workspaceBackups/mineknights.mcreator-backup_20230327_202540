@@ -1,0 +1,403 @@
+{
+  "mod_elements": [
+    {
+      "name": "OrigiumShard",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_shard",
+      "path": "~/Items/Ores/Raw"
+    },
+    {
+      "name": "Origium",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium",
+      "path": "~/Items/Ores/Refined"
+    },
+    {
+      "name": "OrigiumOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_ore",
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "OrigiumOreDrop",
+      "type": "loottable",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_ore_drop",
+      "path": "~/LootTables"
+    },
+    {
+      "name": "OrigiumRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OrigiumRecipeBF",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_recipe_bf",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Arknights",
+      "type": "dimension",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arknights",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "Devastedlands",
+      "type": "biome",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devastedlands",
+      "path": "~/Biomes"
+    },
+    {
+      "name": "ProcessingTable",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processing_table",
+      "path": "~/Blocks/InteractiveBlocks"
+    },
+    {
+      "name": "ProcessingTableGUI",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processing_table_gui",
+      "path": "~/GUI"
+    },
+    {
+      "name": "ProcessingTableTick",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processing_table_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks"
+    },
+    {
+      "name": "ArknightsTrades",
+      "type": "villagertrade",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arknights_trades",
+      "path": "~/Trades/Villager"
+    },
+    {
+      "name": "ProcessingTableEnergy",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processing_table_energy",
+      "path": "~/Blocks/InteractiveBlocks"
+    },
+    {
+      "name": "EnergyProjectorGUI",
+      "type": "gui",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_projector_gui",
+      "path": "~/GUI"
+    },
+    {
+      "name": "EnergyProjector",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_projector",
+      "path": "~/Blocks/InteractiveBlocks"
+    },
+    {
+      "name": "OrigiumHealingWandRightclickedEntity",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_healing_wand_rightclicked_entity",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Procedures/Items"
+    },
+    {
+      "name": "OrigiumHealingWandRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_healing_wand_rightclicked_on_block",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Procedures/Items"
+    },
+    {
+      "name": "OrigiumHealingWand",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_healing_wand",
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "Oriopathy",
+      "type": "potioneffect",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oriopathy",
+      "path": "~/Efeitos"
+    },
+    {
+      "name": "OrigiumOreBlockGiveOripathy",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "origium_ore_block_give_oripathy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks"
+    },
+    {
+      "name": "OriopathyOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oriopathy_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Efeitos"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.mineknights.processing_table": "Processing Table",
+      "block.mineknights.processing_table_energy": "Processing Table Energy",
+      "item.mineknights.arknights": "Lighter",
+      "item.mineknights.origium_healing_wand": "Origium Healing Wand",
+      "item.mineknights.origium_shard": "Origium Shard",
+      "block.mineknights.origium_ore": "Origium Ore",
+      "block.mineknights.energy_projector": "Energy Projector",
+      "item.mineknights.origium": "Origium",
+      "biome.mineknights.devastedlands": "Devastedlands",
+      "effect.mineknights.oriopathy": "Oriopathy"
+    },
+    "pt_br": {
+      "block.mineknights.processing_table": "Mesa de Processamento",
+      "block.mineknights.processing_table_energy": "Mesa de Processamento Energia",
+      "item.mineknights.arknights": "Chave Para Arknights",
+      "item.mineknights.origium_healing_wand": "Varinha de Cura de Origium",
+      "item.mineknights.origium_shard": "Fragmento de Origium",
+      "block.mineknights.origium_ore": "MInério de Origium",
+      "block.mineknights.energy_projector": "Projetor de Energia",
+      "item.mineknights.origium": "Origium",
+      "biome.mineknights.devastedlands": "Terras Devastadas",
+      "effect.mineknights.oriopathy": "Oriopathy"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Dimensions",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Ores",
+            "children": []
+          },
+          {
+            "name": "InteractiveBlocks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Ores",
+            "children": [
+              {
+                "name": "Block",
+                "children": []
+              },
+              {
+                "name": "Raw",
+                "children": []
+              },
+              {
+                "name": "Refined",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Tools",
+            "children": []
+          },
+          {
+            "name": "Weapons",
+            "children": []
+          },
+          {
+            "name": "Shields",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Entitys",
+        "children": [
+          {
+            "name": "Firendly",
+            "children": []
+          },
+          {
+            "name": "Agressive",
+            "children": []
+          },
+          {
+            "name": "Neutral",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "LootTables",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Efeitos",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Trades",
+        "children": [
+          {
+            "name": "Villager",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Efeitos",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mineknights",
+    "modName": "MineKnights",
+    "version": "1.0.0",
+    "author": "lucss, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.mineknights.bodewilson",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

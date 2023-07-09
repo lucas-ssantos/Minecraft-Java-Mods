@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mineknights:block/processing_table_energy"
+    },
+    "facing=east": {
+      "model": "mineknights:block/processing_table_energy",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mineknights:block/processing_table_energy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mineknights:block/processing_table_energy",
+      "y": 270
+    }
+  }
+}

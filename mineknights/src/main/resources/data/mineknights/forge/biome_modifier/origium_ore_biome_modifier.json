@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "mineknights:devastedlands",
+  "features": "mineknights:origium_ore",
+  "step": "underground_ores"
+}

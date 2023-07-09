@@ -1,0 +1,9 @@
+{
+  "parent": "mineknights:custom/energy_projector",
+  "textures": {
+    "all": "mineknights:blocks/energy_projector",
+    "particle": "mineknights:blocks/energy_projector",
+    "1": "mineknights:blocks/energy_projector"
+  },
+  "render_type": "translucent"
+}

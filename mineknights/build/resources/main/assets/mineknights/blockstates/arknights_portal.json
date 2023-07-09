@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "mineknights:block/arknights_portal_ew"
+    },
+    "axis=x": {
+      "model": "mineknights:block/arknights_portal_ns"
+    }
+  }
+}

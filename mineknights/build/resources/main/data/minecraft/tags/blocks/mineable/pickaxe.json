@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mineknights:origium_ore",
+    "mineknights:processing_table",
+    "mineknights:processing_table_energy"
+  ]
+}

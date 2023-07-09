@@ -1,0 +1,16 @@
+{
+  "block.mineknights.processing_table": "Processing Table",
+  "gui.mineknights.energy_projector_gui.label_energy_bnbtintegerenergyak": "Energy: \u003cBNBT:integer:energyAK\u003e%",
+  "block.mineknights.processing_table_energy": "Processing Table",
+  "item.mineknights.arknights": "Lighter",
+  "block.mineknights.origium_ore": "Origium Ore",
+  "gui.mineknights.processing_table_gui.label_processing_table": "Processing Table",
+  "biome.mineknights.devastedlands": "Devastedlands",
+  "gui.mineknights.energy_projector_gui.label_energy_projector": "Energy Projector",
+  "effect.mineknights.oriopathy": "Oriopathy",
+  "item.mineknights.origium_healing_wand": "Origium Healing Wand",
+  "item.mineknights.origium_shard": "Origium Shard",
+  "block.mineknights.energy_projector": "Energy Projector",
+  "item.mineknights.origium": "Origium",
+  "gui.mineknights.processing_table_gui.label_fuelbnbtintegerfuelremaining": "Fuel:\u003cBNBT:integer:fuelRemaining\u003e%"
+}

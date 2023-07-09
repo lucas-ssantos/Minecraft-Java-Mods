@@ -1,0 +1,35 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "origium_healing_wand",
+    "customModelName": "originiumhealingwand:default",
+    "name": "Origium Healing Wand",
+    "specialInfo": [
+      "A light weight wand with a little crystal at the top."
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 0.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 1.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "OrigiumHealingWandRightclickedEntity"
+    },
+    "onRightClickedOnBlock": {
+      "name": "OrigiumHealingWandRightclickedOnBlock"
+    }
+  }
+}

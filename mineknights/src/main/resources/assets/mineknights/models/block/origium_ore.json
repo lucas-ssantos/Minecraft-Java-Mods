@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mineknights:blocks/origium_ore",
+    "particle": "mineknights:blocks/origium_ore"
+  },
+  "render_type": "solid"
+}
